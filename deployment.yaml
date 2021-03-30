@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: podinfo
-        image: clouddemospe/podinfo:{{BUILD_NUMBER}}
+        image: andreamendoza/podinfo:{{BUILD_NUMBER}}
         imagePullPolicy: Always
         ports:
         - containerPort: 4444
