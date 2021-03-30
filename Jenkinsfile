@@ -16,8 +16,8 @@ pipeline {
     }
     stage('Scan Image') {
       steps {
-        sh "docker run --rm quay.io/sysdig/secure-inline-scan:2 andreamendoza/podinfo:${env.BUILD_NUMBER} -k 55d7691b-d862-47a5-980d-c3f1e8c7c039 -s https://https://us2.app.sysdig.com"
-        slackSend(message: "Imagen andreamendoza/podinfo:${env.BUILD_NUMBER} escaneada con Sysdig, mas detalle ver en el link https://https://us2.app.sysdig.com")
+        sh "docker run --rm quay.io/sysdig/secure-inline-scan:2 andreamendoza/podinfo:${env.BUILD_NUMBER} -k 55d7691b-d862-47a5-980d-c3f1e8c7c039 -s https://us2.app.sysdig.com/secure"
+        slackSend(message: "Imagen andreamendoza/podinfo:${env.BUILD_NUMBER} escaneada con Sysdig, mas detalle ver en el link https://us2.app.sysdig.com/secure")
       }
     }
     stage('Docker Remove Image') {
