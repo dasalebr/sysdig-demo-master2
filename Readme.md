@@ -1,5 +1,7 @@
 # Configuring CI/CD on Kubernetes with Jenkins
 
+[![CIS](https://app.soluble.cloud/api/v1/public/badges/c10c11dd-80f5-4726-bb06-a6b1a9bbf35f.svg)](https://app.soluble.cloud/repos/details/github.com/dasalebr/sysdig-demo-master2)  [![IaC](https://app.soluble.cloud/api/v1/public/badges/16cb5883-576d-461c-969e-af8f85b60555.svg)](https://app.soluble.cloud/repos/details/github.com/dasalebr/sysdig-demo-master2)  
+
 ### Introduction
 
 DevOps encourages collaboration, cooperation, and communication between developers and operations teams to improve the speed and quality of software development. One of the key principles of DevOps is automation, which reduces human error, provides consistent results, and even mitigates risks. With the help of automation, you and your team can build, test, and deploy software quickly and efficiently. 
